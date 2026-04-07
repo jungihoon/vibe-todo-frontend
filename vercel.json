@@ -1,11 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/todos/:path*",
-      "destination": "https://vibe-todo-backend-vn21.onrender.com/todos/:path*"
-    },
-    {
-      "source": "/(.*)",
+      "source": "/((?!api/).*)",
       "destination": "/index.html"
     }
   ]
