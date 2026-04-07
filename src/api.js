@@ -1,4 +1,4 @@
-const BASE = '/api/todos';
+const BASE = 'https://vibe-todo-backend-vn21.onrender.com/todos';
 
 export async function fetchTodos() {
   const res = await fetch(BASE);
